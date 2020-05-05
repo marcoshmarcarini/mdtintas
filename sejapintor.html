@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Mundo das Tintas</title>
+    <!--Link do Bootstrap v4.4-->
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+</head>
+<body class="alert-dark">
+    <!--Estrutura do Menu-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand h1 mb-0" href="index.html"><img  src="img/logo.png"></a>
+            
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+            <div class="collapse navbar-collapse" id="conteudoMenu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sejapintor.html">Seja Um Pintor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pintores.html">Nossos Pintores</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav mt-1">
+                        <li class="nav-item mr-3 mt-1">
+                            Fale Conosco:
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-sm btn btn-success shadow rounded alert-light mr-3 mb-1" type="button" href="http://www.linktr.ee/mundodastintascachoeiro"><img src="img/whatsapp.svg"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-sm btn btn-success shadow rounded alert-light mb-1" type="button" href="#"><img class="img-fluid" src="img/ligar.png"></a>
+                        </li>
+                </ul>    
+               
+            </div>
+            
+        </div>
+        </nav>
+    <!--Estrutura do Formulário Para Pintores-->
+    <div class="container mt-5">
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputFirstName">Nome</label>
+            <input type="text" class="form-control" id="inputFirstName">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputLastName">Sobrenome</label>
+            <input type="text" class="form-control" id="inputLastName">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputLastName">CPF</label>
+            <input type="text" class="form-control" id="inputLastName" placeholder="xxx.xxx.xxx-xx">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="Seu email">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Endereço</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Rua, bairro, Nº">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Cidade</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Sua Cidade">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Estado</label>
+            <select id="inputState" class="form-control">
+              <option selected>Escolha</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">CEP</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="xx.xxx-xxx">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  
+    <!--Estrutura para o rodapé-->
+    
+    <footer class="page-footer text-center py-3 mt-5">
+    <div class="footer-copyright text-center py-3">© 2020 Copyright<br>Conteúdo</div>
+    </footer>
+    </div>
+
+
+    <!--JS do Bootstrap vem aqui-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
