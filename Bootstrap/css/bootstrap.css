@@ -2632,14 +2632,14 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #7bed9f;
-  border-color: #7bed9f;
+  background-color: #dfe4ea;
+  border-color: #dfe4ea;
 }
 
 .btn-success:hover {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34;
+  background-color: #ced6e0;
+  border-color: #ced6e0;
 }
 
 .btn-success:focus, .btn-success.focus {
@@ -4276,7 +4276,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #6c757d;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4736,7 +4736,9 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  color: #fff;
 }
+
 
 .card > hr {
   margin-right: 0;
@@ -5373,8 +5375,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .alert-light {
   color: #818182;
-  background-color: #7bed9f;
-  border-color: #7bed9f;
+  background-color: #dfe4ea;
+  border-color: #dfe4ea;
 }
 
 .alert-light hr {
@@ -5386,8 +5388,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-dark {
-  color: #ffffff;
-  background-color: #2ed573;
+  color: #a4b0be;
+  background-color: #f1f2f6;
   border-color: #c6c8ca;
 }
 
@@ -6497,7 +6499,7 @@ a.close.disabled {
   -ms-flex-pack: center;
   justify-content: center;
   width: 15%;
-  color: #fff;
+  color: #2ed573;
   text-align: center;
   opacity: 1;
   transition: opacity 0.15s ease;
@@ -6513,7 +6515,7 @@ a.close.disabled {
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #fff;
+  color: #2ed573;
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
@@ -6545,11 +6547,13 @@ a.close.disabled {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
 }
 
+/*
 .carousel-control-prev-icon,
 .carousel-control-next-icon:hover {
   background-color: #7bed9f;
   transition: 400ms;
 }
+*/
 
 .carousel-indicators {
   position: absolute;
