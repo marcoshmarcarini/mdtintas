@@ -50,39 +50,39 @@
   </nav>
     <!--Estrutura do Formulário Para Pintores-->
     <div class="container mt-5">
-    <form method="POST" action="mailto:marcoshmarcarini@hotmail.com">
+    <form method="POST" action="email.php">
         <div class="form-row">
           <div class="form-group col-md-4">
             <label for="inputFirstName">Nome</label>
-            <input type="text" class="form-control shadow" id="inputFirstName">
+            <input type="text" class="form-control shadow" id="inputFirstName" maxlength="50" name="nome">
           </div>
           <div class="form-group col-md-4">
             <label for="inputLastName">Sobrenome</label>
-            <input type="text" class="form-control" id="inputLastName">
+            <input type="text" class="form-control" id="inputLastName" maxlength="50" name="sobrenome">
           </div>
           <div class="form-group col-md-4">
             <label for="inputLastName">CPF</label>
-            <input type="text" class="form-control shadow" id="inputLastName" placeholder="xxx.xxx.xxx-xx">
+            <input type="text" class="form-control shadow" id="inputLastName" placeholder="xxx.xxx.xxx-xx" maxlength="11" name="cpf">
           </div>
         </div>
         <div class="form-group">
           <label for="inputEmail">Email</label>
-          <input type="email" class="form-control shadow" id="inputEmail" placeholder="Seu email">
+          <input type="email" class="form-control shadow" id="inputEmail" placeholder="Seu email" maxlength="80" name="email">
         </div>
         <div class="form-group">
           <label for="inputAddress2">Endereço</label>
-          <input type="text" class="form-control shadow" id="inputAddress2" placeholder="Rua, bairro, Nº">
+          <input type="text" class="form-control shadow" id="inputAddress2" placeholder="Rua, bairro, Nº" maxlength="200" name="endereco">
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputCity">Cidade</label>
-            <input type="text" class="form-control shadow" id="inputCity" placeholder="Sua Cidade">
+            <input type="text" class="form-control shadow" id="inputCity" placeholder="Sua Cidade" maxlength="50" name="cidade">
           </div>
           <div class="form-group col-md-4">
             <label for="inputState">Estado</label>
-            <select id="inputState" class="form-control shadow">
+            <select id="inputState" class="form-control shadow" name="estado">
               <option selected>Escolha</option>
-              <option>...</option>
+              <option>Espírito Santo</option>
             </select>
           </div>
           <div class="form-group col-md-2">
