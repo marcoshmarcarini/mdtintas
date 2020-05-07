@@ -2,7 +2,7 @@
 
 if(isset($_POST['email']) && !empty($_POST['email'])){
 
-$nome = addslashes($_POST['nome']);
+$Vai$nome = addslashes($_POST['nome']);
 $sobrenome = addslashes($_POST['sobrenome']);
 $cpf = addslashes($_POST['cpf']);
 $endereco = addslashes($_POST['endereco']);
@@ -20,7 +20,7 @@ $body = "Nome: ".$nome." ".$sobrenome."\r\n".
         "Estado: ".$estado."\r\n".
         "E-mail: ".$email;
 
-$header = "From:mdtintas@github.io"."\r\n"."Reply-To: ".$email."\r\n"."X=Mailer:PHP/".phpversion();
+$header = "From:mutano09@gmail.com"."\r\n"."Reply-To: ".$email."\r\n"."X=Mailer:PHP/".phpversion();
 
 if(mail($to,$subject,$body,$header)){
 
@@ -29,13 +29,6 @@ if(mail($to,$subject,$body,$header)){
 }else{
     echo("O Email não pode ser enviado.");
 }
-
-
-
-
-
-
-
 
 
 ?>
