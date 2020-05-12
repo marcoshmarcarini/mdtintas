@@ -1,111 +1,146 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Mundo das Tintas</title>
-    <!--Link do Bootstrap v4.4-->
-    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
-</head>
-<body class="alert-dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Mundo das Tintas</title>
+        <!--Link do Bootstrap v4.4-->
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    </head>
+<body>
     <!--Estrutura do Menu-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-          <a class="navbar-brand h1 mb-0" href="index.html"><img  src="img/logo.png"></a>
-      
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoMenu">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-      
-      <div class="collapse navbar-collapse" id="conteudoMenu">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="sejapintor.html">Seja Um Pintor</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="pintores.html">Nossos Pintores</a>
-              </li>
-
-          </ul>
-          <ul class="navbar-nav mt-1">
-                  <li class="nav-item mr-3 mt-1">
-                      Fale Conosco: <a class="btn btn-sm btn btn-success shadow rounded alert-light ml-1 mr-1 mb-1" type="button" href="http://www.linktr.ee/mundodastintascachoeiro"><img src="img/whatsapp.svg"></a> <a class="btn btn-sm btn btn-success shadow rounded alert-light mb-1" type="button" href="#"><img class="img-fluid" src="img/ligar.png"></a>
-                  </li>
-                  <!--
-                  <li class="nav-item">
-                      <a class="btn btn-sm btn btn-success shadow rounded alert-light mr-3 mb-1" type="button" href="http://www.linktr.ee/mundodastintascachoeiro"><img src="img/whatsapp.svg"></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="btn btn-sm btn btn-success shadow rounded alert-light mb-1" type="button" href="#"><img class="img-fluid" src="img/ligar.png"></a>
-                  </li>
-                  -->
-          </ul>    
-         
-      </div>
-      
-  </div>
-  </nav>
-    <!--Estrutura do Formulário Para Pintores-->
-    <div class="container mt-5">
-    <form method="POST" action="email.php">
-        <div class="form-row">
-          <div class="form-group col-md-4">
-            <label for="inputFirstName">Nome</label>
-            <input type="text" class="form-control shadow" id="inputFirstName" maxlength="50" name="nome">
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputLastName">Sobrenome</label>
-            <input type="text" class="form-control" id="inputLastName" maxlength="50" name="sobrenome">
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputCpf">CPF</label>
-            <input type="text" class="form-control shadow" id="inputCpf" placeholder="xxx.xxx.xxx-xx" maxlength="11" name="cpf">
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail">Email</label>
-          <input type="email" class="form-control shadow" id="inputEmail" placeholder="Seu email" maxlength="80" name="email">
-        </div>
-      
-        <div class="form-group">
-          <label for="inputAddress2">Endereço</label>
-          <input type="text" class="form-control shadow" id="inputAddress2" placeholder="Rua, bairro, Nº" maxlength="200" name="endereco">
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputCity">Cidade</label>
-            <input type="text" class="form-control shadow" id="inputCity" placeholder="Sua Cidade" maxlength="50" name="cidade">
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputState">Estado</label>
-            <select id="inputState" class="form-control shadow" name="estado">
-              <option selected>Escolha</option>
-              <option>Espírito Santo</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="inputZip">CEP</label>
-            <input type="text" class="form-control shadow" id="inputZip" placeholder="xx.xxx-xxx" name="cpf">
-          </div>
-          <div class="form-group col-md-2">
-            <label for="inputTelefone">Telefone</label>
-            <input type="text" class="form-control shadow" id="inputTelefone" placeholder="99999-9999" maxlength="14" name="telefone">
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputFoto">Envie uma Foto</label>
-            <input type="file" class="form-control shadow" id="inputFoto" name="foto">
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary shadow">Enviar</button>
-      </form>
-    </div>
+        <div class="container">
+            <a class="navbar-brand h1 mb-0" href="index.html"><img  src="img/logo.png"></a>
+        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+        <div class="collapse navbar-collapse" id="conteudoMenu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sejapintor.html">Seja Um Pintor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pintores.html">Nossos Pintores</a>
+                </li>
   
-    <!--Estrutura para o rodapé-->
+            </ul>
+            <ul class="navbar-nav mt-1">
+                    <li class="nav-item mr-3 mt-1">
+                        Fale Conosco: <a class="btn btn-sm btn btn-success shadow rounded alert-light ml-1 mr-1 mb-1" type="button" href="http://www.linktr.ee/mundodastintascachoeiro"><img src="img/whatsapp.svg"></a> <a class="btn btn-sm btn btn-success shadow rounded alert-light mb-1" type="button" href="#"><img class="img-fluid" src="img/ligar.png"></a>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="btn btn-sm btn btn-success shadow rounded alert-light mr-3 mb-1" type="button" href="http://www.linktr.ee/mundodastintascachoeiro"><img src="img/whatsapp.svg"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-sm btn btn-success shadow rounded alert-light mb-1" type="button" href="#"><img class="img-fluid" src="img/ligar.png"></a>
+                    </li>
+                    -->
+            </ul>    
+           
+        </div>
+        
+    </div>
+    </nav>
+
+    <!-- Começo do Formulário Mailchimp -->
+
+<div class="container mt-5" id="mc_embed_signup">
+    <form action="https://hotmail.us18.list-manage.com/subscribe/post?u=32b562564b4d9f6542f71f0bb&amp;id=fd8e892738" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll" class="form-row">
+            <div class=" form-group col-md-4">
+                <label for="mce-FNAME">Nome</label>
+                <input type="text" value="" name="FNAME" class="form-control shadow" id="mce-FNAME" maxlength="50">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="mce-LNAME">Sobrenome</label>
+                <input type="text" value="" name="LNAME" class="form-control shadow" id="mce-LNAME" maxlength="50">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="mce-MMERGECPF">CPF</label>
+                <input type="text" name="MMERGECPF" class="form-control shadow" id="mce-MMERGECPF" maxlength="11">
+            </div>
+        
+            <div class="form-group col-md-12">
+                <label for="mce-EMAIL">Email</label>
+                <input type="email"  name="EMAIL" class="form-control shadow" id="mce-EMAIL">
+            </div>
+       
+            
+            <div class="form-group col-md-12">
+                <label for="mce-ADDRESS-addr1">Endereço</label>
+                <input type="text" maxlength="70" name="ADDRESS[addr1]" id="mce-ADDRESS-addr1" class="form-control shadow">
+            </div>
+            
+
+            
+                    <div class="form-group col-md-6">
+                        <label for="mce-ADDRESS-city">Cidade</label>
+                        <input type="text" maxlength="60" name="ADDRESS[city]" id="mce-ADDRESS-city" class="form-control shadow">
+                    </div>
+                    
+                    <div class="form-group col-md-4">
+                        <label for="mce-ADDRESS-zip">CEP</label>
+                        <input type="text" name="ADDRESS[zip]" id="mce-ADDRESS-zip" class="form-control shadow" placeholder="XX.XXX-XXX" maxlength="8">
+                    </div> 
+
+                    <div class="form-group col-md-2">
+                        <label for="mce-PHONE">Telefone </label>
+                        <input type="text" name="PHONE" class="form-control shadow" id="mce-PHONE" placeholder="(XX) XXXXX-XXXX" maxlength="11">
+                    </div>
+
+                    <!--
+                    <div class="form-group col-md-2">
+                        <label for="mce-MMERGEFOTO">Foto</label>
+                        <input type="file" name="MMERGEFOTO" id="mce-MMERGEFOTO">
+                    </div>
+                    -->
+
+        </div>
+
+            <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_32b562564b4d9f6542f71f0bb_fd8e892738" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary shadow"></div>
+        
+    </form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+        (function($) {
+            window.fnames = new Array(); 
+            window.ftypes = new Array();
+            fnames[1]='FNAME';
+            ftypes[1]='text';
+            fnames[2]='LNAME';
+            ftypes[2]='text';
+            fnames[7]='MMERGECPF';
+            ftypes[7]='number';
+            fnames[0]='EMAIL';
+            ftypes[0]='email';
+            fnames[3]='ADDRESS';
+            ftypes[3]='address';
+            fnames[4]='PHONE';
+            ftypes[4]='phone';
+            /*fnames[6]='MMERGEFOTO';
+            ftypes[6]='imageurl';*/
+        }
+            (jQuery));
+            var $mcj = jQuery.noConflict(true);
+</script>
+<!--Fim do Formulário-->
+
+ <!--Estrutura para o rodapé-->
     
-    <footer class="page-footer text-center py-3 mt-5">
+ <footer class="page-footer text-center py-3 mt-5">
     <div class="footer-copyright text-center py-3">© 2020 Copyright<br>Conteúdo</div>
     </footer>
     </div>
@@ -116,5 +151,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
-  </body>
+    
+</body>
 </html>
